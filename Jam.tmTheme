@@ -14,7 +14,7 @@
 	<key>name</key>
 	<string>Jam</string>
 	<key>semanticClass</key>
-	<string>theme.dark.saturn</string>
+	<string>theme.dark.jam</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -25,14 +25,18 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 
-				<!-- OTHER SHIT --> 
+				<!-- OTHER TEXT --> 
 				<key>foreground</key>
 				<string>#6d8db7</string>
 				
 				<key>invisibles</key>
 				<string>#b4a1d6</string>
+
+				<!-- LINE HILIGHT -->
 				<key>lineHighlight</key>
 				<string>#4E4167</string>
+
+				<!-- PUBLIC SELECTION -->
 				<key>selection</key>
 				<string>#322A40</string>
 			</dict>
@@ -92,6 +96,8 @@
 				<string>#AE81FF</string>
 			</dict>
 		</dict>
+		
+		<!-- VARIABLE -->
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
@@ -102,9 +108,11 @@
 				<key>fontStyle</key>
 				<string>#E2454B</string>
 				<key>foreground</key>
-				<string>#ff60b4</string>
+				<string>#4780FF</string>
 			</dict>
 		</dict>
+
+		<!-- IF, ELSE, RETURN -->
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -113,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ac6fb3</string>
+				<string>#7F93FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,6 +137,8 @@
 				<string>#F92672</string>
 			</dict>
 		</dict>
+
+		<!-- "FUNCTION" -->
 		<dict>
 			<key>name</key>
 			<string>Storage type</string>
@@ -168,6 +178,8 @@
 				<string>#1BA1E2</string>
 			</dict>
 		</dict>
+
+		<!-- FUNCTION NAME -->
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
@@ -194,6 +206,8 @@
 				<string>#b4a1d6</string>
 			</dict>
 		</dict>
+
+		<!-- MAIN BLUE BLOCKS -->
 		<dict>
 			<key>name</key>
 			<string>Tag name</string>
@@ -207,6 +221,8 @@
 				<string>#43BAEF</string>
 			</dict>
 		</dict>
+
+		<!-- CSS ID TAG -->
 		<dict>
 			<key>name</key>
 			<string>Tag attribute</string>
@@ -220,6 +236,8 @@
 				<string>#FF505E</string>
 			</dict>
 		</dict>
+
+		<!-- PHP LIBRARY FUNCTIONS -->
 		<dict>
 			<key>name</key>
 			<string>Library function</string>
@@ -230,9 +248,10 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#74CAB4</string>
+				<string>#FF5A67</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Library constant</string>
