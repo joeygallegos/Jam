@@ -27,7 +27,7 @@
 
 				<!-- OTHER TEXT --> 
 				<key>foreground</key>
-				<string>#6d8db7</string>
+				<string>#4f5470</string>
 				
 				<key>invisibles</key>
 				<string>#b4a1d6</string>
@@ -74,6 +74,7 @@
 				<string>#877fff</string>
 			</dict>
 		</dict>
+		<!-- true, false -->
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -82,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ee93fc</string>
+				<string>#1897f6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +109,7 @@
 				<key>fontStyle</key>
 				<string>#E2454B</string>
 				<key>foreground</key>
-				<string>#4780FF</string>
+				<string>#f1c74e</string>
 			</dict>
 		</dict>
 
@@ -121,7 +122,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F93FF</string>
+				<string>#1895f2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,7 +150,7 @@
 				<key>foreground</key>
 				<string>#7F93FF</string>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,7 +234,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF505E</string>
+				<string>#1897f6</string>
 			</dict>
 		</dict>
 
@@ -248,7 +249,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF5A67</string>
+				<string>#1895f2</string>
 			</dict>
 		</dict>
 
@@ -263,6 +264,8 @@
 				<string>#f1c74e</string>
 			</dict>
 		</dict>
+
+		<!-- PHP CLASS NAMES -->
 		<dict>
 			<key>name</key>
 			<string>Library class&#x2f;type</string>
@@ -271,7 +274,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b4a1d6</string>
+				<string>#ff5929</string>
 			</dict>
 		</dict>
 		<dict>
