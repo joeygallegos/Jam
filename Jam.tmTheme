@@ -5,7 +5,7 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#1b2131</string>
+		<string>#1e2835</string>
 		<key>divider</key>
 		<string>#75715E</string>
 		<key>foreground</key>
@@ -21,7 +21,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1b2131</string>
+				<string>#1e2835</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 
@@ -49,7 +49,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#675a80</string>
+				<string>#8093b4</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +76,8 @@
 				<string>#877fff</string>
 			</dict>
 		</dict>
-		<!-- true, false -->
+
+		<!-- BOOLEANS -->
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -83,22 +86,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1897f6</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
 		
-		<!-- VARIABLE -->
+		<!-- VARIABLE NAME -->
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
@@ -109,7 +101,7 @@
 				<key>fontStyle</key>
 				<string>#E2454B</string>
 				<key>foreground</key>
-				<string>#f1c74e</string>
+				<string>#c4aaff</string>
 			</dict>
 		</dict>
 
@@ -194,6 +186,8 @@
 				<string>#41b9f8</string>
 			</dict>
 		</dict>
+
+		<!-- FUNCTION VARIABLE DECLERATION -->
 		<dict>
 			<key>name</key>
 			<string>Function argument</string>
@@ -252,12 +246,26 @@
 				<string>#1895f2</string>
 			</dict>
 		</dict>
-
+		
+		<!-- LIBRARY CONSTANT -->
 		<dict>
 			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
 			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1c74e</string>
+			</dict>
+		</dict>
+
+		<!-- CODE DEFINED CONSTANT -->
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -274,7 +282,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff5929</string>
+				<string>#fd5454</string>
 			</dict>
 		</dict>
 		<dict>
