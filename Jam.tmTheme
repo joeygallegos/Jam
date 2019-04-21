@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#1e2835</string>
+		<string>#242833</string>
 		<key>divider</key>
 		<string>#75715E</string>
 		<key>foreground</key>
-		<string>#1b2131</string>
+		<string>#303644</string>
 	</dict>
 	<key>name</key>
 	<string>Jam</string>
@@ -20,34 +20,27 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-
-				<!-- theme background -->
 				<key>background</key>
-				<string>#1e2835</string>
-
-				<!-- underline on <> and carret -->
+				<string>#fff</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 
-				 <!-- basic text -->
+				<!-- OTHER TEXT --> 
 				<key>foreground</key>
 				<string>#4f5470</string>
 				
-				<!-- NA -->
 				<key>invisibles</key>
 				<string>#b4a1d6</string>
 
-				<!-- line selection -->
+				<!-- LINE HILIGHT -->
 				<key>lineHighlight</key>
 				<string>#4E4167</string>
 
-				<!-- text selection -->
+				<!-- PUBLIC SELECTION -->
 				<key>selection</key>
 				<string>#322A40</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -57,10 +50,10 @@
 			<dict>
 				<key>foreground</key>
 				<string>#8093b4</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>String</string>
@@ -72,8 +65,6 @@
 				<string>#00ebc6</string>
 			</dict>
 		</dict>
-
-		<!-- Number -->
 		<dict>
 			<key>name</key>
 			<string>Number</string>
@@ -82,12 +73,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#877fff</string>
+				<string>#f1c74e</string>
 			</dict>
 		</dict>
 
-		
-		<!-- true/false -->
+		<!-- BOOLEANS -->
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -96,11 +86,40 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4876ff</string>
+				<string>#2188ff</string>
+			</dict>
+		</dict>
+		
+		<!-- VARIABLE NAME -->
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>#E2454B</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 
-		<!-- return/if/else -->
+		<dict>
+			<key>name</key>
+			<string>Variable property</string>
+			<key>scope</key>
+			<string>variable.property</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>#1895f2</string>
+				<key>foreground</key>
+				<string>#1895f2</string>
+			</dict>
+		</dict>
+
+		<!-- IF, ELSE, RETURN -->
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -109,23 +128,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4876ff</string>
+				<string>#1895f2</string>
 			</dict>
 		</dict>
-		
-		<!-- variables/functions from variables -->
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c4aaff</string>
-			</dict>
-		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -133,12 +138,14 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#F92672</string>
 			</dict>
 		</dict>
 
-		
+		<!-- "FUNCTION" -->
 		<dict>
 			<key>name</key>
 			<string>Storage type</string>
@@ -153,23 +160,19 @@
 			</dict>
 		</dict>
 		
+		<!-- OPERATORS + - > < -->
 		<dict>
 			<key>name</key>
-			<string>Package</string>
+			<string>Keyword operator</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>variable.other</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#572fc76d</string>
 				<key>foreground</key>
-				<string>#de5c6e</string>
-				<key>fontStyle</key>
-				<string>italic</string>
+				<string>#f1c74e</string>
 			</dict>
 		</dict>
 
-		<!-- as /ClassName// -->
 		<dict>
 			<key>name</key>
 			<string>Class name</string>
@@ -178,13 +181,11 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>underline</string>
 				<key>foreground</key>
-				<string>#de5c6e</string>
+				<string>#1BA1E2</string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Inherited class</string>
@@ -199,6 +200,7 @@
 			</dict>
 		</dict>
 
+		<!-- FUNCTION NAME -->
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
@@ -207,13 +209,13 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string></string>
 				<key>foreground</key>
-				<string>#41b9f8</string>
+				<string>#dc656c</string>
 			</dict>
 		</dict>
 
-		
+		<!-- FUNCTION VARIABLE DECLERATION -->
 		<dict>
 			<key>name</key>
 			<string>Function argument</string>
@@ -221,12 +223,14 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#b4a1d6</string>
+				<string>#dc656c</string>
 			</dict>
 		</dict>
 
-		
+		<!-- MAIN BLUE BLOCKS -->
 		<dict>
 			<key>name</key>
 			<string>Tag name</string>
@@ -235,13 +239,13 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string></string>
 				<key>foreground</key>
 				<string>#43BAEF</string>
 			</dict>
 		</dict>
 
-		
+		<!-- CSS ID TAG -->
 		<dict>
 			<key>name</key>
 			<string>Tag attribute</string>
@@ -249,12 +253,14 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#1897f6</string>
 			</dict>
 		</dict>
 
-		
+		<!-- PHP LIBRARY FUNCTIONS -->
 		<dict>
 			<key>name</key>
 			<string>Library function</string>
@@ -262,12 +268,14 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#1e90ff</string>
+				<string>#1895f2</string>
 			</dict>
 		</dict>
 		
-		
+		<!-- LIBRARY CONSTANT -->
 		<dict>
 			<key>name</key>
 			<string>Library constant</string>
@@ -280,7 +288,7 @@
 			</dict>
 		</dict>
 
-		
+		<!-- CODE DEFINED CONSTANT -->
 		<dict>
 			<key>name</key>
 			<string>User-defined constant</string>
@@ -293,19 +301,18 @@
 			</dict>
 		</dict>
 
-		<!-- RED -->
+		<!-- PHP CLASS NAMES -->
 		<dict>
 			<key>name</key>
-			<string>Library class/type</string>
+			<string>Library class&#x2f;type</string>
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#de5c6e</string>
+				<string>#fd5454</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Library variable</string>
@@ -313,12 +320,10 @@
 			<string>support.other.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#de5c6e</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
-
-
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
@@ -328,11 +333,12 @@
 			<dict>
 				<key>background</key>
 				<string>#F92672</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Invalid deprecated</string>
@@ -341,100 +347,12 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#AE81FF</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>GitGutter deleted</string>
-			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#de5c6e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter inserted</string>
-			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter changed</string>
-			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter ignored</string>
-			<key>scope</key>
-			<string>markup.ignored.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter untracked</string>
-			<key>scope</key>
-			<string>markup.untracked.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#565656</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EDBA00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
-			<key>scope</key>
-			<string>sublimelinter.gutter-mark</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict><dict>
-			<key>name</key>
-			<string>SublimeLinter Error</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DA2000</string>
-			</dict>
-		</dict></array>
+	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
 	<key>colorSpaceName</key>
@@ -442,6 +360,6 @@
 	<key>author</key>
 	<string>Joey Gallegos</string>
 	<key>comment</key>
-	<string>Joey's personal color scheme</string>
+	<string>Joey&apos;s personal color scheme</string>
 </dict>
 </plist>
