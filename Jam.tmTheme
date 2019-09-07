@@ -5,7 +5,7 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#242833</string>
+		<string>#1e2835</string>
 		<key>divider</key>
 		<string>#75715E</string>
 		<key>foreground</key>
@@ -21,26 +21,63 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fff</string>
+				<string>#1e2835</string>
+				
+				<!-- VERTICLE LINES FOR TABS/SPACES -->
+				<key>guide</key>
+				<string>#4E4167</string>
+
 				<key>caret</key>
 				<string>#FFFFFF</string>
 
 				<!-- OTHER TEXT --> 
 				<key>foreground</key>
 				<string>#4f5470</string>
-				
-				<key>invisibles</key>
-				<string>#b4a1d6</string>
 
 				<!-- LINE HILIGHT -->
 				<key>lineHighlight</key>
 				<string>#4E4167</string>
 
 				<!-- PUBLIC SELECTION -->
+				<!-- Was = #322A40 -->
 				<key>selection</key>
-				<string>#322A40</string>
+				<string>#19a5a6</string>
+
+				<key>selectionBorder</key>
+				<string>#4E4167</string>
+
+				<key>selectionForeground</key>
+				<string>#fff</string>
+
+				<!-- LINE IN TEXT SELECTION -->
+				<key>invisibles</key>
+				<string>#FFFFFF</string>
+
+				<key>bracketsForeground</key>
+				<string>#FFFFFF</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
+		
+		<!-- BRACKETS, SLASHES, CURLY BRACES -->
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation - (punctuation.definition.string || punctuation.definition.comment)</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6a7894</string>
+			</dict>
+		</dict>
+
+		<!-- Normal text of comment -->
+		<!-- Was = #8093b4 -->
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -49,11 +86,13 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8093b4</string>
+				<string>#6a7894</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
 		</dict>
+
+		<!-- TEXT WRAPPED AS A STRING -->
 		<dict>
 			<key>name</key>
 			<string>String</string>
@@ -62,7 +101,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00ebc6</string>
+				<string>#F9E4AB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -73,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f1c74e</string>
+				<string>#F9E4AB</string>
 			</dict>
 		</dict>
 
@@ -86,7 +125,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2188ff</string>
+				<string>#F9E4AB</string>
 			</dict>
 		</dict>
 		
@@ -101,7 +140,7 @@
 				<key>fontStyle</key>
 				<string>#E2454B</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#c4aaff</string>
 			</dict>
 		</dict>
 
@@ -113,13 +152,15 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>#1895f2</string>
+				<string>#2188ff</string>
 				<key>foreground</key>
-				<string>#1895f2</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
 
 		<!-- IF, ELSE, RETURN -->
+		<!-- NAMESPACE, USE, DOCBLOCK DEFENITIONS -->
+		<!-- Was = #2188ff -->
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -127,10 +168,15 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#1895f2</string>
+				<string>#8796b9</string>
 			</dict>
 		</dict>
+
+		<!-- EXTENDS, PROTECTED/PUBLIC/PRIVATE -->
+		<!-- Was = #F92672 -->
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -139,13 +185,13 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
 
-		<!-- "FUNCTION" -->
+		<!-- FUNCTION, CLASS KEYWORD -->
 		<dict>
 			<key>name</key>
 			<string>Storage type</string>
@@ -154,13 +200,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F93FF</string>
+				<string>#2188ff</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
 		</dict>
 		
 		<!-- OPERATORS + - > < -->
+		<!-- variable names and accessors - YELLOW -->
 		<dict>
 			<key>name</key>
 			<string>Keyword operator</string>
@@ -169,10 +216,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f1c74e</string>
+				<string>#c4aaff</string>
 			</dict>
 		</dict>
 
+		<!-- CLASS NAME -->
 		<dict>
 			<key>name</key>
 			<string>Class name</string>
@@ -180,12 +228,12 @@
 			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 				<key>foreground</key>
-				<string>#1BA1E2</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
+
+		<!-- INHERITED CLASS NAME -->
 		<dict>
 			<key>name</key>
 			<string>Inherited class</string>
@@ -196,7 +244,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#1BA1E2</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
 
@@ -211,7 +259,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#dc656c</string>
+				<string>#c4aaff</string>
 			</dict>
 		</dict>
 
@@ -226,7 +274,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#dc656c</string>
+				<string>#8796b9</string>
 			</dict>
 		</dict>
 
@@ -260,7 +308,7 @@
 			</dict>
 		</dict>
 
-		<!-- PHP LIBRARY FUNCTIONS -->
+		<!-- PHP LIBRARY/BASE FUNCTIONS -->
 		<dict>
 			<key>name</key>
 			<string>Library function</string>
@@ -271,7 +319,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#1895f2</string>
+				<string>#2188ff</string>
 			</dict>
 		</dict>
 		
@@ -284,7 +332,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f1c74e</string>
+				<string>#F9E4AB</string>
 			</dict>
 		</dict>
 
@@ -297,11 +345,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f1c74e</string>
+				<string>#dc656c</string>
 			</dict>
 		</dict>
 
 		<!-- PHP CLASS NAMES -->
+		<!-- USE STATEMENT CLASS NAMES -->
 		<dict>
 			<key>name</key>
 			<string>Library class&#x2f;type</string>
@@ -310,7 +359,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5454</string>
+				<string>#7867ae</string>
 			</dict>
 		</dict>
 		<dict>
@@ -363,3 +412,12 @@
 	<string>Joey&apos;s personal color scheme</string>
 </dict>
 </plist>
+
+
+<!-- PURPLE = 7867ae
+RED = dc656c
+
+LIGHT-GREY = 8796b9
+LIGHT-PINK = c4aaff
+
+LIGHT-PEACH = F9E4AB -->
